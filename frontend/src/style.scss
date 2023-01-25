@@ -1,0 +1,94 @@
+.card {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    label {
+        color:tomato;
+        border-bottom: 0.5px solid tomato;
+        margin-bottom:10px;
+        font-size:14px;
+        width: fit-content;
+    }
+    div{
+        color: gold;
+    }
+    span{
+        span{
+            font-size: 12px;
+        }
+    }
+}
+.otherIcon{
+    color: #013E7D;
+    height: 50px!important;
+    width: 50px!important;
+    cursor: pointer;
+}
+
+.addPlace {
+    width: 250px;
+    
+    form{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        label {
+            color:tomato;
+            border-bottom: 0.5px solid tomato;
+            margin-bottom:10px;
+            font-size:14px;
+            width: fit-content;
+        }
+        input, textarea, select {
+            border: 1px solid lightgray;
+            font-size: 12px;
+            padding: 5px;
+            option {
+                font-size: 12px;
+            }
+        }
+        button {
+            outline: none;
+            border: none;
+            margin-top:10px;
+            cursor: pointer;
+            background-color: green;
+            color: white;
+            font-size: 12px;
+            padding: 10px;
+        }
+    }
+    
+}
+.topRight {
+        width: 100%;
+        z-index: 2;
+        position: relative;
+        right: 10px;
+        top: 10px;
+        text-align: right;
+
+    .button {
+        outline: none;
+        border: none;
+        margin-top:10px;
+        cursor: pointer;
+        color: white;
+        font-size: 14px;
+        padding: 10px;
+        margin: 5px;
+        border-radius: 5px;        
+    }
+    .logout {
+        background-color: red;
+    }
+    .login {
+        background-color: green;
+    }
+    .register {
+        background-color: teal;
+    }
+}
+

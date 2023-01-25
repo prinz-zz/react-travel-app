@@ -1,0 +1,79 @@
+.LoginRegisterContainer {
+    position: absolute;
+    width: 300px;
+    height: auto;
+    // right: 0;
+    // left: 0;
+    // top: 0;
+    // bottom: 0;
+    // margin: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background:#fff;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+    .logo {
+        display: flex;
+        align-items:center;
+        padding: 20px;
+
+        h1{
+            font-size: 35px!important;
+        }
+    }
+    form {
+
+        input {
+            width: 100%;
+            margin-bottom: 10px;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid lightgray;
+            outline: none;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid lightgray;
+            outline: none;
+            background-color:green;
+            color: #fff;
+            cursor: pointer;      
+         }
+         
+         .success{
+                color:green;
+                display: inline-block;                
+                display: flex;
+                justify-content: center;
+                margin-top: 10px;
+            }
+         .failure{
+                color:red;
+                display: inline-block;
+                display: flex;
+                justify-content: center;
+                margin-top: 10px;
+            }
+            
+        
+    }
+    svg {
+        color: red;
+        position: absolute;
+        right: 5px;
+        top:5px;
+        cursor: pointer;
+    }
+}
+
+.LoginContainer{
+    display: inline;
+}
